@@ -9,6 +9,6 @@
     <com.bella.myview1_1.view.MyVeiw1
         android:layout_width="500dp"
         android:layout_height="500dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center" />
 
 </LinearLayout>
