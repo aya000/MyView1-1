@@ -58,6 +58,11 @@ public class MyVeiw1 extends View {
         canvas.drawOval(100, 680, 500, 800, paint);
         //画直线  由于直线不是封闭图形，所以setStyle(style)对直线没有影响
         canvas.drawLine(100, 820, 300, 850, paint);
+        //画很多线
+        float[] lines={100, 880, 300, 880, 100, 980, 300, 980, 200, 880, 200, 980};
+        canvas.drawLines(lines,0, 12, paint);
+        //画圆角矩形
+        canvas.drawRoundRect(100, 1000, 300, 1100, 60, 60, paint);
 
 
     }
