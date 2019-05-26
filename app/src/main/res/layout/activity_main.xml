@@ -4,11 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <com.bella.myview1_1.view.MyVeiw1
-        android:layout_width="500dp"
-        android:layout_height="500dp"
-        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Practice1"
+        android:background="@null"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Practice2"
+        android:background="@null"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
